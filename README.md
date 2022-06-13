@@ -3,9 +3,14 @@
 <p align="center">
 <a href="https://arxiv.org/abs/2206.05149"><img  src="https://img.shields.io/badge/arXiv-Paper-<COLOR>.svg" ></a>
 <a href="https://creativecommons.org/licenses/by-nc/4.0/"><img  src="https://img.shields.io/badge/license-CC%20BY--NC-orange"></a>
+<br>
+<a href="https://paperswithcode.com/sota/referring-image-matting-expression-based-on?p=referring-image-matting"><img src="https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/referring-image-matting/referring-image-matting-expression-based-on"></a>
+<a href="https://paperswithcode.com/sota/referring-image-matting-prompt-based-on?p=referring-image-matting"><img src="https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/referring-image-matting/referring-image-matting-prompt-based-on"></a>
 </p>
 
+
 <h4 align="center">This is the official repository of the paper <a href="https://arxiv.org/abs/2206.05149">Referring Image Matting</a>.</h4>
+<h5 align="center"><em>Jizhizi Li, Jing Zhang, and Dacheng Tao</em></h5>
 
 <p align="center">
   <a href="#introduction">Introduction</a> |
@@ -23,7 +28,7 @@
 
 <p align="justify"> Prevalent visual grounding methods are all limited to the segmentation level, probably due to the lack of high-quality datasets for RIM. To fill the gap, we establish the first large-scale challenging dataset <strong>RefMatte</strong> by designing a comprehensive image composition and expression generation engine to produce synthetic images on top of current public high-quality matting foregrounds with flexible logics and re-labelled diverse attributes. RefMatte consists of <strong>230</strong> object categories, <strong>47,500</strong> images, <strong>118,749</strong> expression-region entities, and <strong>474,996</strong> expressions, which can be further extended easily in the future. Besides this, we also construct a real-world test set with manually generated phrase annotations consisting of 100 natural images to further evaluate the generalization of RIM models. We show some examples of our RefMatte train and test set as follows, including the images, the alpha mattes and the input texts.</p>
 
-![](demo/src/refmatte.png)
+![](demo/src/refmatte.jpg)
 
 We also generate the wordcloud of the prompts, attributes and relationships in RefMatte as belows. As can be seen, the dataset has a large portion of human and animals since they are very common in the image matting task. The most frequent attributes in RefMatte are *male, gray, transparent,* and *salient*, while the relationship words are more balanced.
 
