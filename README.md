@@ -50,7 +50,7 @@ We also generate the wordcloud of the keywords, attributes and relationships in 
 
 <p align="justify">We show some examples of our test results on RefMatte test set and RefMatte-RW100 by our CLIPMat given text inputs and the images under both keyword-based and expression-based setting. More can be seen from this <a href="https://github.com/JizhiziLi/RIM/tree/master/demo#more-results-of-clipmat">page</a>.</p>
 
-<img src="demo/src/intro1.jpg" width="50%"><img src="demo/src/intro2.jpg" width="50%">
+<img src="demo/src/img1.jpg" width="50%"><img src="demo/src/img2.jpg" width="50%">
 
 
 ## Statement
